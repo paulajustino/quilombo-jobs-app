@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">quilombo-jobs-app</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="mainTitle_description">EU SOU:</string>
+    <string name="recruiterTitle_description">Recrutador</string>
+    <string name="candidateTitle_description">Candidato</string>
+    <string name="welcomeTitle_description">Seja bem-vinde!</string>
+    <string name="about_description">Somos especialistas em inovar e desenvolver \n pessoas negras no mercado de trabalho.</string>
+    <string name="phoneTitle_description">Insira o seu telefone para prosseguir</string>
+    <string name="phone_mask">(99) 99999 – 9999</string>
+    <string name="continueButton_description">Continuar</string>
+    <string name="fillDataTitle_description">Preencha com seus dados</string>
+    <string name="name_hint">Nome Completo</string>
+    <string name="email_hint">E-mail</string>
+    <string name="address_hint">Endereço</string>
+    <string name="gender_hint">Gênero</string>
+    <string name="lookingForJobsTitle_description">Estou interessade em:</string>
+    <string name="jobVacanciesType_description">Vagas</string>
+    <string name="offerServicesType_description">Ofertar serviços</string>
+    <string name="mentorshipType_description">Mentorias</string>
+    <string name="coursesType_description">Cursos</string>
+    <string name="attachmentTitle_description">Anexe o seu currículo abaixo:</string>
+    <string name="attachmentButton_description">Anexo</string>
+    <string name="contactAgree_description">Sim, eu concordo que o Quilombo Jobs \n pode me contatar.</string>
+    <string name="shareDataAuthorize_description">Sim, eu autorizo que as informações \n preenchidas sejam disponibilizadas para \n empresas e recrutadores.</string>
+    <string name="smsCodeTitle_description">Insira o código recebido</string>
+    <string name="confirmButton_description">Confirmar</string>
+</resources>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/fillDataTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/roboto_regular"
+        android:gravity="center"
+        android:text="@string/fillDataTitle_description"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/nameEditText"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="@string/name_hint"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/fillDataTitle" />
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="@string/email_hint"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/nameEditText" />
+
+    <EditText
+        android:id="@+id/addressEditText"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="@string/address_hint"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/emailEditText" />
+
+    <EditText
+        android:id="@+id/genderEditText"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="@string/gender_hint"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/addressEditText" />
+
+    <TextView
+        android:id="@+id/lookingForJobsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/roboto_regular"
+        android:text="@string/lookingForJobsTitle_description"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@id/genderEditText"
+        app:layout_constraintTop_toBottomOf="@id/genderEditText" />
+
+    <CheckBox
+        android:id="@+id/jobVacanciesType_checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/jobVacanciesType_description"
+        app:layout_constraintStart_toStartOf="@id/lookingForJobsTitle"
+        app:layout_constraintTop_toBottomOf="@id/lookingForJobsTitle" />
+
+    <CheckBox
+        android:id="@+id/offerServicesType_checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/offerServicesType_description"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/jobVacanciesType_checkBox"
+        app:layout_constraintTop_toTopOf="@id/jobVacanciesType_checkBox" />
+
+    <CheckBox
+        android:id="@+id/mentorshipType_checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mentorshipType_description"
+        app:layout_constraintStart_toStartOf="@id/jobVacanciesType_checkBox"
+        app:layout_constraintTop_toBottomOf="@id/offerServicesType_checkBox" />
+
+    <CheckBox
+        android:id="@+id/coursesType_checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/coursesType_description"
+        app:layout_constraintStart_toEndOf="@id/mentorshipType_checkBox"
+        app:layout_constraintStart_toStartOf="@id/offerServicesType_checkBox"
+        app:layout_constraintTop_toTopOf="@id/mentorshipType_checkBox" />
+
+    <View
+        android:id="@+id/divide"
+        android:layout_width="250dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/mentorshipType_checkBox" />
+
+    <TextView
+        android:id="@+id/attachmentTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/roboto_regular"
+        android:text="@string/attachmentTitle_description"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@id/genderEditText"
+        app:layout_constraintTop_toBottomOf="@id/divide" />
+
+    <Button
+        android:id="@+id/attachmentButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/white"
+        android:drawableEnd="@drawable/ic_attachment"
+        android:text="@string/attachmentButton_description"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/attachmentTitle" />
+
+    <CheckBox
+        android:id="@+id/contactAgree_checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/roboto_regular"
+        android:text="@string/contactAgree_description"
+        app:layout_constraintStart_toStartOf="@id/attachmentTitle"
+        app:layout_constraintTop_toBottomOf="@id/attachmentButton" />
+
+    <CheckBox
+        android:id="@+id/shareDataAuthorize_checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/roboto_regular"
+        android:text="@string/shareDataAuthorize_description"
+        app:layout_constraintStart_toStartOf="@id/contactAgree_checkBox"
+        app:layout_constraintTop_toBottomOf="@id/contactAgree_checkBox" />
+
+    <Button
+        android:id="@+id/continueButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#C0320C"
+        android:text="@string/continueButton_description"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/shareDataAuthorize_checkBox" />
+</androidx.constraintlayout.widget.ConstraintLayout>
