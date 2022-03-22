@@ -25,7 +25,7 @@ class LoginFragment : Fragment() {
     }
 
     private fun setOnClickListeners() {
-        binding.phoneEditText.setOnClickListener {
+        binding.continueButton.setOnClickListener {
             val loginAction =
                 LoginFragmentDirections.actionLoginFragmentToValidationFragment()
             findNavController().navigate(loginAction)
