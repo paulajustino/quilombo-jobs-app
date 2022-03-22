@@ -9,10 +9,10 @@
 ## MVP:
 <p align="justify">No final do hackathon, entregamos esse MVP com quatro telas que fazem parte do fluxo principal, como mostradas abaixo. </p>
 <h1 align="center">
-    <img alt="tela de login do quilombo jobs" src="https://user-images.githubusercontent.com/40619402/159591278-09d825bd-797a-40b2-81c5-6696dfc80a89.png" width="230"/>
-    <img alt="tela de validação do quilombo jobs" src="https://user-images.githubusercontent.com/40619402/159591346-13b23f4a-eb9a-4118-ac40-96ed9605b840.png" width="230"/>
-    <img alt="tela principal do quilombo jobs" src="https://user-images.githubusercontent.com/40619402/159591353-a3302633-a08b-4e05-b10f-c10476a62cde.png" width="230"/>
-    <img alt="tela do candidato do quilombo jobs" src="https://user-images.githubusercontent.com/40619402/159591359-f195c5f2-2d0d-4c7a-8713-dd5c26c20dfb.png" width="230"/>
+    <img alt="tela de login do quilombo jobs" src="https://user-images.githubusercontent.com/40619402/159591278-09d825bd-797a-40b2-81c5-6696dfc80a89.png" width="200"/>
+    <img alt="tela de validação do quilombo jobs" src="https://user-images.githubusercontent.com/40619402/159591346-13b23f4a-eb9a-4118-ac40-96ed9605b840.png" width="200"/>
+    <img alt="tela principal do quilombo jobs" src="https://user-images.githubusercontent.com/40619402/159591353-a3302633-a08b-4e05-b10f-c10476a62cde.png" width="200"/>
+    <img alt="tela do candidato do quilombo jobs" src="https://user-images.githubusercontent.com/40619402/159591359-f195c5f2-2d0d-4c7a-8713-dd5c26c20dfb.png" width="200"/>
 </h1>
 <h1 align="center">
     <img alt="fluxo das telas" src="https://user-images.githubusercontent.com/40619402/159591769-a47e66ab-313a-4e3b-87ca-5c5ece81b192.gif" width="320"/>
